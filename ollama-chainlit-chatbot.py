@@ -1,13 +1,3 @@
-# Load web page
-from langchain_community.document_loaders import WebBaseLoader
-
-from langchain_text_splitters import CharacterTextSplitter
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-
-# Embed and store
-from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import OllamaEmbeddings 
-
 from langchain_community.llms import Ollama
 from langchain_core.callbacks.manager import CallbackManager
 from langchain_core.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
