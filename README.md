@@ -25,3 +25,7 @@ To get a glimpse of the chatbots in action, follow the instructions below:
 3. Run the following commands to run the chatbots.
 
     `chainlit run <chatbotfile.py> -w`
+
+### Chatbots showcase
+1. A travel assistant bot using a local Phi3 model
+![Travel bot screenshot](assets/travel-bot.png)
